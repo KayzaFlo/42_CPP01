@@ -6,12 +6,12 @@
 #    By: fgeslin <fgeslin@student.42.fr>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/01/31 13:26:56 by fgeslin           #+#    #+#              #
-#    Updated: 2023/04/07 12:53:08 by fgeslin          ###   ########.fr        #
+#    Updated: 2023/04/07 12:53:02 by fgeslin          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 #####	CONFIG		############################################################
-NAME		:= zombie
+NAME		:= horde
 CC			:= c++
 RM			:= rm -f
 CFLAGS		= -Wall -Wextra -Werror -std=c++98
@@ -19,8 +19,7 @@ CFLAGS		= -Wall -Wextra -Werror -std=c++98
 #####	SOURCES		############################################################
 SRC			=	main.cpp \
 				Zombie.cpp \
-				newZombie.cpp \
-				randomChump.cpp
+				zombieHorde.cpp
 OBJ			=	$(SRC:.cpp=.o)
 
 #####	Makefile  objs		###################################################
