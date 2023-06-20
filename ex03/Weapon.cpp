@@ -6,7 +6,7 @@
 /*   By: fgeslin <fgeslin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/07 13:07:53 by fgeslin           #+#    #+#             */
-/*   Updated: 2023/04/07 13:21:11 by fgeslin          ###   ########.fr       */
+/*   Updated: 2023/06/20 12:47:07 by fgeslin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ Weapon::Weapon(std::string type) {
 
 Weapon::~Weapon() {}
 
-std::string Weapon::getType(void) {
+const std::string Weapon::getType(void) {
 	return (this->_type);
 }
 

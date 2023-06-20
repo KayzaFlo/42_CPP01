@@ -6,7 +6,7 @@
 /*   By: fgeslin <fgeslin@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/07 13:05:59 by fgeslin           #+#    #+#             */
-/*   Updated: 2023/04/07 13:20:52 by fgeslin          ###   ########.fr       */
+/*   Updated: 2023/06/20 12:46:58 by fgeslin          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,8 @@ private:
 public:
 	Weapon(std::string type);
 	~Weapon();
-	std::string	getType(void);
-	void		setType(std::string type);
+	const std::string	getType(void);
+	void				setType(std::string type);
 
 };
 
